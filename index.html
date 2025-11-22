@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sodegaura Digital-Twin Circuit</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div id="app">
+      <nav class="navbar">
+        <div class="logo">SODEGAURA <span class="highlight">DTC</span></div>
+        <div class="nav-links">
+          <a href="#concept">CONCEPT</a>
+          <a href="#features">FEATURES</a>
+          <a href="#business">BUSINESS</a>
+          <a href="#contact" class="btn-nav">CONTACT</a>
+        </div>
+      </nav>
+
+      <header class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+          <h1 class="glitch" data-text="DIGITAL-TWIN CIRCUIT">DIGITAL-TWIN CIRCUIT</h1>
+          <p class="hero-subtitle">Real Engine x Digital Soul</p>
+          <p class="hero-location">@ SODEGAURA FOREST RACEWAY</p>
+          <a href="#concept" class="btn-primary">ENTER THE FUTURE</a>
+        </div>
+        <div class="scroll-indicator">
+          <span>SCROLL</span>
+          <div class="arrow"></div>
+        </div>
+      </header>
+
+      <section id="concept" class="section concept">
+        <div class="container">
+          <div class="section-header">
+            <h2>CONCEPT</h2>
+            <p class="section-subtitle">世界とつながる森のサーキット</p>
+          </div>
+          <div class="concept-content">
+            <div class="concept-text hidden-left">
+              <h3>リアルとデジタルの融合</h3>
+              <p>
+                袖ケ浦フォレストレースウェイの豊かな自然と、最先端のIoT技術が融合。<br>
+                5G通信による「リモートレース」、AIによる「自動レース運営」、そしてリアルタイム「テレメトリー解析」。<br>
+                これは単なるラジコンサーキットではない。<br>
+                モータースポーツのDX（デジタルトランスフォーメーション）だ。
+              </p>
+              <ul class="concept-list">
+                <li><span class="icon">🌐</span> Borderless - 世界中から参戦</li>
+                <li><span class="icon">🧠</span> Intelligent - AIレース管理</li>
+                <li><span class="icon">🏎️</span> Professional - 高度なデータ分析</li>
+              </ul>
+            </div>
+            <div class="concept-image hidden-right">
+              <div class="image-frame">
+                <img src="/hero.png" alt="Circuit Concept Art">
+                <div class="overlay-tech"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="section features">
+        <div class="container">
+          <div class="section-header">
+            <h2>FEATURES</h2>
+            <p class="section-subtitle">他にはない、4つの革新</p>
+          </div>
+          <div class="features-grid">
+            <div class="feature-card hidden-up">
+              <div class="card-image">
+                <img src="/cockpit.png" alt="Remote Racing">
+              </div>
+              <div class="card-content">
+                <h3>01. 5G Remote Racing</h3>
+                <p>コックピット型筐体から、現地のエンジンRCを遠隔操作。超低遅延映像とリアルな操作感で、世界中がサーキットになる。</p>
+              </div>
+            </div>
+            <div class="feature-card hidden-up" style="transition-delay: 0.2s;">
+              <div class="card-image">
+                <!-- Placeholder for AI Marshall, reusing telemetry for now or generic tech -->
+                <div class="tech-placeholder">AI MARSHALL</div>
+              </div>
+              <div class="card-content">
+                <h3>02. AI Auto Marshall</h3>
+                <p>コース全域を監視するAIがクラッシュを瞬時に検知。スマートフラッグと自動減速制御で、安全かつスムーズなレース運営を実現。</p>
+              </div>
+            </div>
+            <div class="feature-card hidden-up" style="transition-delay: 0.4s;">
+              <div class="card-image">
+                <img src="/telemetry.png" alt="Live Telemetry">
+              </div>
+              <div class="card-content">
+                <h3>03. Live Telemetry & AR</h3>
+                <p>ラップタイム、エンジン回転数、Gフォースをリアルタイム可視化。AR観戦で、観客もチームの一員としてレースに参加できる。</p>
+              </div>
+            </div>
+            <div class="feature-card hidden-up" style="transition-delay: 0.6s;">
+              <div class="card-image">
+                <div class="tech-placeholder">GHOST CHALLENGE</div>
+              </div>
+              <div class="card-content">
+                <h3>04. Ghost Challenge</h3>
+                <p>プロドライバーの走行データを「ARゴーストカー」として投影。憧れのライン取りを物理的に追いかける、究極の練習体験。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="business" class="section business">
+        <div class="container">
+          <div class="section-header">
+            <h2>BUSINESS MODEL</h2>
+            <p class="section-subtitle">持続可能な収益構造</p>
+          </div>
+          <div class="business-list">
+            <div class="business-item hidden-left">
+              <div class="biz-icon">🎫</div>
+              <div class="biz-info">
+                <h4>Course Fee</h4>
+                <p>サブスクリプション / ビジター走行料</p>
+              </div>
+            </div>
+            <div class="business-item hidden-left" style="transition-delay: 0.1s;">
+              <div class="biz-icon">🌍</div>
+              <div class="biz-info">
+                <h4>Remote Experience</h4>
+                <p>10分単位のリモート走行課金</p>
+              </div>
+            </div>
+            <div class="business-item hidden-left" style="transition-delay: 0.2s;">
+              <div class="biz-icon">🛠️</div>
+              <div class="biz-info">
+                <h4>Rental & Sales</h4>
+                <p>IoT搭載ハイエンド機材レンタル</p>
+              </div>
+            </div>
+            <div class="business-item hidden-left" style="transition-delay: 0.3s;">
+              <div class="biz-icon">🎓</div>
+              <div class="biz-info">
+                <h4>Education & Events</h4>
+                <p>エンジニア研修 / プログラミング教室</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-content">
+            <div class="footer-logo">SODEGAURA DTC</div>
+            <p>&copy; 2025 Sodegaura Forest Raceway. All Rights Reserved.</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
